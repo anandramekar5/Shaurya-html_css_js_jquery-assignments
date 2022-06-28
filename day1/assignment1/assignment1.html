@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>form</title>
+  </head>
+  <body background="cover2.jpg">
+    <div class="card" style="width: 38rem; margin: auto; margin-top: 100px;">
+        <div style="text-align:center; margin-top:25px;">
+            <h4>Registration Form</h4>
+        </div>
+        <form action="" style="margin: auto; width: 80%;">
+            <div class="form-group" style="margin-top:25px;">
+                <label for="name">full name<span class="text-danger"> *</span></label>
+                <input type="text" class="form-control" name="name" placeholder="enter your name">
+            </div>
+            <div class="form-group" style="margin-top:25px;">
+                <label for="address">address<span class="text-danger"> *</span></label>
+                <input type="text" class="form-control" name="address" placeholder="enter your address">
+            </div>
+            <div class="form-group" style="margin-top:25px;">
+                <label for="city">city<span class="text-danger"> *</span></label>
+                <select name="city" id="city" type="button">
+                    <option value="">select</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="california">California</option>
+                    <option value="texas">Texas</option>
+                    <option value="prayagraj">Prayagraj</option>
+                    <option value="mumbai">Mumbai</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-top:25px;">
+                <label>select the country <span class="text-danger"> *</span> :</label>
+                <label for="india" style="margin-left:20px;">India</label>
+                <input type="radio" name="country" value="india">
+                <label for="usa" style="margin-left:20px;">USA</label>
+                <input type="radio" name="country" value="usa">
+            </div>
+            <div class="form-group" style="margin-top:25px;">
+                <label for="status">status :</label>
+                <label for="active" style="margin-left:20px;">active</label>
+                <input type="checkbox" name="active">
+                <!-- <label for="inactive" style="margin-left:20px;">inactive</label>
+                <input type="checkbox" name="inactive"> -->
+            </div>
+            <div>
+                <button class="btn btn-primary rounded-pill" style="margin:30px;">Submit</button>
+                <button class="btn btn-danger rounded-pill" style="margin:30px; margin-left: 220px;">Disgard</button>
+            </div>
+    </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
