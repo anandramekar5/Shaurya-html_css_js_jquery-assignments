@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>data grid</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <table class="table table-striped table-striped container-fluid">
+        <thead>
+            <th>Id</th>
+            <th>Contact Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>Phone</th>
+            <th>Action</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Rahul Sharma</td>
+            <td>Old Civil Line</td>
+            <td>Pune</td>
+            <td>+91 7798 935 987</td>
+            <td>
+                <button type="button" class="btn btn-success btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                show profile
+                </button>
+             </td>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Employee Profile</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h6>Rahul Sharma</h6>
+            <p><em>Old Civil Line, Pune (+91 7798 935 987)</em></p>    
+        </div>
+      </div>
+    </div>
+  </div> 
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mandeep Singh</td>
+            <td>Phase 2 Old Trafford</td>
+            <td>London</td>
+            <td>+91 7798 789 122</td>
+            <td>
+                <button type="button" class="btn btn-success btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                show profile
+                </button>
+             </td>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Employee Profile</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h6>Mandeep Singh</h6>
+            <p><em>Phase 2 Old Trafford, London (+91 7798 789 122)</em></p>    
+        </div>
+      </div>
+    </div>
+  </div> 
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vijay Bhatkar</td>
+            <td>New Street, st. stephans</td>
+            <td>Banglore</td>
+            <td>+91 7798 564 646</td>
+            <td><button class="btn btn-sm btn-success rounded-pill">show profile</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mahi Suryawanshi</td>
+            <td>Block 5, Moosarambagh</td>
+            <td>Hyderabad</td>
+            <td>+91 7798 751 288</td>
+            <td><button class="btn btn-sm btn-success rounded-pill">show profile</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Peter Parkar</td>
+            <td>Old Trafford</td>
+            <td>Manchester</td>
+            <td>+91 7798 465 546</td>
+            <td><button class="btn btn-sm btn-success rounded-pill">show profile</button></td>
+        </tr>
+      </table>
+    <!-- Bootstrap JavaScript Libraries -->
+    <!-- <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+})
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
